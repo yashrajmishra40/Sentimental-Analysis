@@ -16,7 +16,7 @@ nltk.download('vader_lexicon')
 sia = SentimentIntensityAnalyzer()
 
 # Set AssemblyAI API Key
-aai.settings.api_key = "a4a2736f6b684b989c38be029d43cd57"
+aai.settings.api_key = "-----"
 
 def preprocess_data(file_path):
     """Loads and cleans the dataset."""
